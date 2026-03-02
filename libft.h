@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+int ft_atoi(char *nstr);
 void ft_bzero(void *s, size_t n);
 int ft_isalnum(int c);
 int ft_isalpha(int c);
@@ -24,6 +25,7 @@ size_t ft_strlcat(char *dst, const char *src, size_t dsize);
 size_t ft_strlcpy(char *dst, const char *src, size_t dsize);
 size_t ft_strlen(const char *s);
 int ft_strncmp(const char *s1, const char *s2, size_t n);
+char *ft_strnstr(const char *haystack, const char *needle, size_t n);
 char *ft_strrchr(const char *s, int c);
 void ft_swap(int *a, int *b);
 int ft_tolower(int c);
