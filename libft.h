@@ -2,6 +2,7 @@
 #define LIBFT_H
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 
 void ft_bzero(void *s, size_t n);
