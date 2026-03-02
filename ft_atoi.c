@@ -14,9 +14,11 @@ int ft_atoi(char *nstr) {
     }
     i++;
   }
+
   while (nstr[i] >= '0' && nstr[i] <= '9') {
     to_int = to_int * 10 + nstr[i] - '0';
     i++;
   }
+
   return to_int * sign;
 }
