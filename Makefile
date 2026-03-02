@@ -1,7 +1,7 @@
 LIB = libft.a
 
 all:
-	clang -Wall -Wextra -Wextra -c *.c
+	clang -Wall -Wextra -Wextra -Werror -c *.c
 	ar rcs ${LIB} *.o
 
 clean:
