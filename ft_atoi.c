@@ -20,10 +20,3 @@ int ft_atoi(char *nstr) {
   }
   return to_int * sign;
 }
-
-// int main(void) {
-//   char *str = "\n\n\n  -46\b9 \n5d6";
-//   int nb = ft_atoi(str);
-
-//   printf("%d", nb);
-// }
