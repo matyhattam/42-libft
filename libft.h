@@ -1,12 +1,14 @@
 #ifndef LIBFT_H
 #define LIBFT_H
 
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
 int ft_atoi(char *nstr);
 void ft_bzero(void *s, size_t n);
+void *ft_calloc(size_t nmemb, size_t size);
 int ft_isalnum(int c);
 int ft_isalpha(int c);
 int ft_isascii(int c);
@@ -21,6 +23,7 @@ void ft_putchar(char c);
 void ft_putstr(char *str);
 char *ft_strchr(const char *s, int c);
 int ft_strcmp(const char *s1, const char *s2);
+char *ft_strdup(char *s);
 size_t ft_strlcat(char *dst, const char *src, size_t dsize);
 size_t ft_strlcpy(char *dst, const char *src, size_t dsize);
 size_t ft_strlen(const char *s);
