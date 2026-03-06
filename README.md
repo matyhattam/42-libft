@@ -10,7 +10,7 @@ I'm not a 42 School student, but I follow parts of their curriculum on my own ti
 
 `libft` is the foundational project of the 42 cursus. The goal is to recode a set of standard C library functions from scratch — no shortcuts, no calling the originals. It forces you to understand what's actually happening under the hood when you call something like `memcpy` or `atoi`.
 
-## What I learned
+### What I learned
 
 - Manual memory management with `malloc` and `free`
 - Pointer arithmetic and string manipulation at a low level
@@ -25,8 +25,6 @@ libft/
 ├── libft.h      # Header with prototypes and the t_list struct
 └── Makefile     # Builds the static library (libft.a)
 ```
-
-## Functions implemented
 
 ### Libc functions
 `ft_memset` · `ft_memcpy` · `ft_memmove` · `ft_memchr` · `ft_memcmp`
@@ -44,7 +42,7 @@ libft/
 `ft_lstnew` · `ft_lstadd_front` · `ft_lstadd_back` · `ft_lstsize`
 `ft_lstlast` · `ft_lstdelone` · `ft_lstclear` · `ft_lstiter` · `ft_lstmap`
 
-## Build
+### Build
 
 ```bash
 make        # builds libft.a
