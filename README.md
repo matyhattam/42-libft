@@ -51,6 +51,11 @@ make fclean # removes object files and libft.a
 make re     # fclean + make
 ```
 
+## Tests
+The project has been tested using:
+https://github.com/jtoty/Libftest
+https://github.com/Tripouille/libftTester
+
 ## Notes
 
 This project is done purely for learning purposes, following the 42 cursus as a self-study resource. I am not affiliated with 42 School.
