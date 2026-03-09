@@ -53,8 +53,8 @@ make re     # fclean + make
 
 ## Tests
 The project has been tested using:
-https://github.com/jtoty/Libftest
-https://github.com/Tripouille/libftTester
+- https://github.com/jtoty/Libftest
+- https://github.com/Tripouille/libftTester
 
 ## Notes
 
