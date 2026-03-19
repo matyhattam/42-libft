@@ -38,6 +38,7 @@ void ft_putchar_fd(char c, int fd);
 void ft_putchar(char c);
 void ft_putendl_fd(char *s, int fd);
 void ft_putnbr_fd(int n, int fd);
+void ft_putnbr(int n);
 void ft_putstr_fd(char *s, int fd);
 void ft_putstr(char *str);
 char *ft_remove_char(const char *s, const char *set);
