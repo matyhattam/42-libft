@@ -42,6 +42,7 @@ void ft_putnbr(int n);
 void ft_putstr_fd(char *s, int fd);
 void ft_putstr(char *str);
 char *ft_remove_char(const char *s, const char *set);
+void ft_revstr(char *s);
 char **ft_split_str(char *str, char *charset);
 char **ft_split(char *str, char c);
 char *ft_strchr(const char *s, int c);
@@ -59,7 +60,11 @@ char *ft_strrchr(const char *s, int c);
 char *ft_strtrim(const char *s, const char *set);
 char *ft_substr(char const *s, unsigned int start, size_t len);
 void ft_swap(int *a, int *b);
+char *ft_tohex(unsigned long x);
 int ft_tolower(int c);
 int ft_toupper(int c);
+int ft_ulen(unsigned int u);
+char *ft_utostr(unsigned int u);
+int ft_xlen(unsigned long x);
 
 #endif
