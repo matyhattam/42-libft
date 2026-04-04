@@ -6,7 +6,6 @@ void *ft_calloc(size_t nmemb, size_t size) {
 
   size_t total = nmemb * size;
   char *arr = malloc(total ? total : 1);
-
   if (!arr)
     return NULL;
 
