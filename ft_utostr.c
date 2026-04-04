@@ -4,7 +4,7 @@ char *ft_utostr(unsigned int u) {
   int i = 0;
   char base10[] = "0123456789";
 
-  char *s = malloc(ulen(u) + 1);
+  char *s = malloc(ft_ulen(u) + 1);
   if (!s)
     return (NULL);
 
@@ -21,7 +21,7 @@ char *ft_utostr(unsigned int u) {
   }
 
   s[i] = '\0';
-  ft_rev_str(s);
+  ft_revstr(s);
 
   return (s);
 }

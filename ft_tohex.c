@@ -4,7 +4,7 @@ char *ft_tohex(unsigned long x) {
   int i = 0;
   char hex_digits[] = "0123456789abcdef";
 
-  char *hex = malloc(xlen(x) + 1);
+  char *hex = malloc(ft_xlen(x) + 1);
   if (!hex)
     return (NULL);
 
@@ -21,7 +21,7 @@ char *ft_tohex(unsigned long x) {
   }
 
   hex[i] = '\0';
-  ft_rev_str(hex);
+  ft_revstr(hex);
 
   return (hex);
 }
